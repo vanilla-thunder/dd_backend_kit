@@ -22,7 +22,7 @@ $sMetadataVersion = '1.1';
  */
 $aModule = array(
     'id'          => 'dd_backend_kit',
-    'title'       => '<img src="../modules/digidesk/dd_backend_kit/ddicon.png" width="15" height="15"> digidesk - Backend UI Kit',
+    'title'       => '<img src="../modules/dd_backend_kit/ddicon.png" width="15" height="15"> digidesk - Backend UI Kit',
     'description' => array(
         'de' => '<span>Optische Anpassungen für das Backend</span>',
         'en' => '<span>Optical adjustmens for the backend</span>',
@@ -35,13 +35,13 @@ $aModule = array(
     'extend'      => array(
 
         // Admin Controller
-        'admin_start' => 'digidesk/dd_backend_kit/application/controller/admin/ddbk_admin_start',
+        'admin_start' => 'dd_backend_kit/application/controller/admin/ddbk_admin_start',
 
     ),
     'templates' => array(
 
         // Admin Templates
-        'ddbk_admin_start.tpl' => 'digidesk/dd_backend_kit/application/views/admin/tpl/ddbk_admin_start.tpl',
+        'ddbk_admin_start.tpl' => 'dd_backend_kit/application/views/admin/tpl/ddbk_admin_start.tpl',
 
     )
 );
