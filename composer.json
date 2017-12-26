@@ -1,7 +1,13 @@
 {
-    "name": "dd_backend_kit",
-    "type": "oxid-module",
-    "require": {
-        "composer/installers": "~1.0"
-    }
+   "name": "dd_backend_kit",
+   "description": "dd_backend_kit for OXID eShop",
+   "type": "oxid-module",
+   "require": {
+      "composer/installers": "~1.0"
+   },
+   "extra": {
+      "oxideshop": {
+         "target-directory": "vt-devutils"
+      }
+   }
 }
