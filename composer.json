@@ -1,0 +1,7 @@
+{
+    "name": "dd_backend_kit",
+    "type": "oxid-module",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
